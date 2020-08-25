@@ -1,0 +1,110 @@
+body {
+    font-family: Arial;
+    font-size: small;
+    background-color: lightgreen;
+}
+   
+h1 {
+    background-color:darkolivegreen;
+    color: whitesmoke;
+    text-align: center;
+}
+
+#main.row {
+    margin-top: 20px;
+}
+
+h2 {
+    margin-top: 15px;
+}
+
+.header h4 {
+    text-align: center;
+    padding-left: 50px;
+}
+
+
+.forecast.content li {
+    font-size: 6px;
+    text-align: center;
+}
+
+/* Setting the main div style */
+#main {
+    width: 400px;
+    height: 100px;
+    text-align: left;
+    padding-left: 1rem;
+    padding-bottom: 0%;
+}
+
+#main h5 {
+    color: black;
+}
+
+/* 5 Day forecast style */
+#forecast li {
+    font-size: 9px;
+}
+
+.nowrap {
+    white-space: nowrap ;
+}
+
+.square {
+    background-color: darkcyan;
+    color: #f1f1f1;
+    float:left;
+    position: relative;
+    width: 16%;
+    padding-bottom: 1%;
+    margin:1%;
+    overflow:hidden;
+    border: 1px solid grey;
+}
+
+.square:hover {
+    background: darkgreen;
+    cursor: pointer;
+}
+
+.square::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.content {
+    height:85%;
+    width:95%;
+    position:absolute;
+    padding: 1%;
+    
+}
+  
+/* input style */
+form.search input[type=text] {
+    padding: 3 px;
+    font-size: 14px;
+    border: 1px dashed slategray;
+    width: 50%;
+    background: whitesmoke;
+    float: left;
+}
+  /* Submit button */
+#search {
+    width: 20%;
+    padding: 1px;
+    background:slategray;
+    color: white;
+    font-size: 13px;
+    border: 2px solid slategray;
+    cursor: pointer;
+    float: left;
+}
+  
+#search::after {
+    content: "";
+    clear: both;
+    display: table;
+}
