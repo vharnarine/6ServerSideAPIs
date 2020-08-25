@@ -126,7 +126,7 @@ function forecast(city) {
             
             // Structuring the html elements
             let listElTempF = $("<li>").attr("class", "tempForecast").attr("class", "nowrap").text("Temp: " + tempT);
-            let listElHumidityF = $("<li>").attr("class", "hunidityForecast").attr("class", "nowrap").text("Humidity: " + humidity);
+            let listElHumidityF = $("<li>").attr("class", "humidityForecast").attr("class", "nowrap").text("Humidity: " + humidity);
            
             // F to C
             function fToC(fahrenheit) {
